@@ -26,7 +26,7 @@ public class ArrayListDemo01 {
         ///change element /replace
         al.set(2,"c++");
         System.out.println(al);
-        ///serach-contains()
+        ///search-contains()
         System.out.println(al.contains("java"));
         ///isempty
         System.out.println(al.isEmpty());
@@ -42,8 +42,8 @@ public class ArrayListDemo01 {
             System.out.println(x);
 /////iterator
         System.out.println("reading element with itaretor");
-        Iterator itr=al.iterator();
-        while (itr.hasNext())
+        Iterator itr=al.iterator();/////// get an iterator positioned before the first element
+        while (itr.hasNext())//////// loop while there are more elements
         { System.out.println(itr.next());
         }
 

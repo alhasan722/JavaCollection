@@ -44,7 +44,8 @@ public class HashMapDemo {
         }*/
         ///System.out.println(m.entrySet());///return all entries as set
 ///Entry method
-        for (Map.Entry k:m.entrySet())
+        for (Map.Entry k:m.entrySet())///entryset is map which internally store key value pair.
+        ////You never create a Map.Entry yourself with new. You only get them by calling entrySet() on a map:
         {
             System.out.println(k.getKey() + " " + k.getValue());
         }

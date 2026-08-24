@@ -10,7 +10,7 @@ import java.util.function.Predicate;
 public class Demo1 {
     public static void main(String[] args)
     {
-        ////Ex 01
+        ////Ex 01. "test" is a method predicate return boolan value
         Predicate<Integer> p=i->(i>10);
         System.out.println(p.test(20));
         System.out.println(p.test(7));
